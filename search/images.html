@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            
+            
+            input[type=text]{
+                border-radius: 30px;
+                width: 400px;
+                height: 40px;
+                background-color:azure;
+                text-align: center;
+            }
+            div[name=search-bar]{
+                margin: 200px;
+                text-align: center;
+            }
+            div[name=hlinks]
+            {
+                text-align: right;
+                border: 1px;
+            }
+        </style>
+        <title>Search</title>
+    </head>
+    <body>
+        <header>
+            <div name="hlinks">
+                <a href="index.html">Google Search</a>
+            </div>
+        </header>
+        <div name="search-bar"> 
+            <form action="https://google.com/search">
+                <div>
+                    <input type="text" name="q">
+                    <input type="hidden" name="tbm" value="isch">
+                </div>
+                <input type="submit" value="Google Image Search">
+            </form>
+        </div>
+    </body>
+</html>

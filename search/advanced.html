@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            
+            
+            input[type=text]{
+                border-radius: 5px;
+                width: 300px;
+                height: 30px;
+                background-color:azure;
+                text-align: left;
+            }
+            div[name=search-bar]{
+                
+                text-align: center;
+            }
+            div[name=hlinks]
+            {
+                text-align: right;
+                border: 1px;
+            }
+            div[name=submit-button]
+            {
+                text-align: right;
+            }
+            form  { display: table; text-align: left;     }
+            p     { display: table-row;  }
+            label { display: table-cell; }
+            input { display: table-cell; }
+            input[type=submit]{
+                border-radius: 10px;
+                background-color: rgb(86, 164, 216);
+                color: white;
+                
+            }
+        </style>
+        <title>Search</title>
+    </head>
+    <body>
+        <header>
+            <div name="hlinks">
+                <a href="index.html">Google Search</a>
+            </div>
+        </header>
+        <div name="search-bar"> 
+            <label>Find pages with...</label>
+            <form action="https://google.com/search">
+                <p>
+                        <label for="search1">All these words:</label>              
+                        <input id="search1" type="text" name="as_q">
+                </p>
+                <p>
+                        <label for="search1">This exact word or phrase:</label>    
+                        <input type="text" name="as_epq">
+                </p>
+                <p>
+                        <label for="search1">Any of these words:</label>           
+                        <input type="text" name="as_oq">
+                </p>
+                <p>
+                        <label for="search1">None of these words:</label>           
+                        <input type="text" name="as_eq">
+                </p>
+                <p>
+                    <label></label>
+                    <label><input type="submit" value="Advanced Search"></label>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
