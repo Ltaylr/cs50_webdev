@@ -1,13 +1,33 @@
-input[type=text]{
-    border-radius: 5px;
-    width: 300px;
-    height: 30px;
+input.search-box{
+    border-radius: 30px;
+    width: 400px;
+    height: 40px;
     background-color:azure;
-    text-align: left;
+    text-align: center;
 }
-div[name=search-bar]{
+
+div[class=search-bar]{
     
     text-align: center;
+    margin: 200px;
+}
+label.title-banner1
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label.title-banner2
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label.title-banner3
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 div[name=hlinks]
 {
@@ -18,13 +38,36 @@ div[name=submit-button]
 {
     text-align: right;
 }
-form  { display: table; text-align: left;     }
+form[class=advanced-form]  { display: table; text-align: right;     }
 p     { display: table-row;  }
-label { display: table-cell; }
+label.adv-lab { display: table-cell; }
 input { display: table-cell; }
-input[type=submit]{
+label.adv-l1
+{
+    text-align: left;
+}
+.advanced-form p{
+    text-align: left;
+}
+.advance-form input[type=text]{
+    text-align: right;
+}
+input.index-submit
+{
+    border-radius: 10px;
+    background-color: rgb(35, 48, 56);
+    color: rgb(27, 102, 187); 
+}
+input.img-submit
+{
+    border-radius: 10px;
+    background-color: rgb(35, 48, 56);
+    color: rgb(27, 102, 187); 
+}
+input.advanced-submit{
     border-radius: 10px;
     background-color: rgb(86, 164, 216);
     color: white;
+    text-align: right;
     
 }
