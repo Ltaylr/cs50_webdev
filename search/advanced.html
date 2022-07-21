@@ -7,37 +7,47 @@
     </head>
     <body>
         <header>
-            
-            <div name="hlinks">
-                <a href="index.html">Google Search</a>
+            <img class="adv-logo" alt="google" src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif">
+            <div class="hlinks">
+                <a href="index.html">Search</a>
             </div>
         </header>
         
         <div class="advanced-form"> 
-            <label class="title-banner3">     Advanced Search      </label>
-            <label> </label>
-            <label> </label>
+            <div class="title-banner3">  Advanced Search      </div>
+            
             <label class="adv-lab">Find pages with...</label>
             <form action="https://google.com/search" class="advanced-form">
-                <p>
-                        <label class="adv-l1" for="search1">All these words:</label>              
-                        <input id="search1" type="text" name="as_q">
-                </p>
-                <p>
-                        <label class="adv-l1" for="search1">This exact word or phrase:</label>    
-                        <input type="text" name="as_epq">
-                </p>
-                <p>
-                        <label class="adv-l1" for="search1">Any of these words:</label>           
-                        <input type="text" name="as_oq">
-                </p>
-                <p>
-                        <label class="adv-l1" for="search1">None of these words:</label>           
-                        <input type="text" name="as_eq">
-                </p>
+                <div class = "adv-area">
+                    <div class="adv-block">
+                        <div class="a1">
+                            <label class="adv-l1" for="search1">All these words:</label> 
+                        </div>
+                        <input class= "input-fld" type="text" name="as_q">
+                    </div>
+                    <div class="adv-block">
+                        <div class="a1">
+                            <label class="adv-l1" for="search1">This exact word or phrase:</label>  
+                        </div>
+                            <input class= "input-fld" type="text" name="as_epq">
+                    </div>
+                    <div class="adv-block">
+                        <div class="a1">
+                            <label class="adv-l1" for="search1">Any of these words:</label> 
+                        </div>
+                            <input class= "input-fld" type="text" name="as_oq">
+                    </div>
+                    <div class="adv-block">
+                        <div class="a1">
+                            <label class="adv-l1" for="search1">None of these words:</label>
+                        </div>
+                            <input class= "input-fld" type="text" name="as_eq">
+                    </div>
+                    <div class="adv-block-button">
+                            <input type="submit" value="Advanced Search" class="advanced-submit">
+                    </div>
                 
-                    <label></label>
-                    <input type="submit" value="Advanced Search" class="advanced-submit">
+                </div>
                 
             </form>
         </div>
